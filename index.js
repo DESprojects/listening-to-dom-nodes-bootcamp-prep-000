@@ -7,5 +7,5 @@ main.addEventListener('click', function(e){
 })
 
 input.addEventListener('keydown', function(e){
-  alert(e.which);
+  console.log(e.which);
 })
