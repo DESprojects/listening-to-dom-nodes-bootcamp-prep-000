@@ -13,7 +13,7 @@ input.addEventListener('keydown', function(e){
 })
 
 function bubble(e) {
-  console.log(this.firstChild.nodeValue.trim() + 'bubbled');
+  console.log(this.firstChild.nodeValue.trim() + ' bubbled');
 }
 
 for(let i = 0; i < divs.length; i++) {
